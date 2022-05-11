@@ -1,0 +1,42 @@
+#container {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+#Astral {
+    margin-top: 5%;
+    margin-left: 50%;
+    height: 25%;
+    width: 30%;
+}
+
+#brilliant-stars {
+    height: 25%;
+    width: 30%;
+    margin-right: 50%;
+}
+
+#fusion-strike {
+    height: 25%;
+    width: 30%;
+    margin-left: 50%;
+}
+
+#celebrations {
+    height: 25%;
+    width: 30%;
+    margin-right: 50%;
+}
+
+#evolving-skies{
+    height: 25%;
+    width: 30%;
+    margin-left: 50%;
+}
+
+#chilling-reign {
+    height: 25%;
+    width: 30%;
+    margin-right: 50%;
+}

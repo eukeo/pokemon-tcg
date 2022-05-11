@@ -1,0 +1,28 @@
+#submit-form {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#search-bar {
+    height: 30px;
+    width: 150px;
+}
+
+#search-btn {
+    height: 30px;
+    width: 60px;
+    text-align: center;
+}
+
+.app-container {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.all-container {
+    display: inline;
+    width: 25%;
+    height: 35%;
+}
