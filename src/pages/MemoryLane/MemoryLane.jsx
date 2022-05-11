@@ -4,6 +4,7 @@ export default function MemoryLane() {
 
     return (
         <div id="timeline">
+            <img src="https://i.gifer.com/5FBP.gif" id="pixel"></img>
             <ul>
                 <li>
                     <div class="content">

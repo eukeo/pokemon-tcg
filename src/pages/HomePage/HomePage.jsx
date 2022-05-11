@@ -17,7 +17,12 @@ export default function HomePage() {
                 </div>
                 <div id="champ-container">
                     <img src="https://i.ytimg.com/vi/KtcjrWHCFN0/maxresdefault.jpg" id="champs"></img>
-                    <h2>Pokémon World Championship</h2>
+                    <h2>Pokémon World Championships</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ea enim sed, eius recusandae illo nesciunt suscipit temporibus beatae debitis illum, neque itaque maiores magnam fugit, aperiam cum quisquam ipsa.</p>
+                </div>
+                <div id="lavender-container">
+                    <img src="https://pa1.narvii.com/6948/c6f2e1a4ccd9409f6d4976571d106e655242947dr1-733-409_hq.gif" id="lavender-town"></img>
+                    <h2>The Legend of Lavender Town</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ea enim sed, eius recusandae illo nesciunt suscipit temporibus beatae debitis illum, neque itaque maiores magnam fugit, aperiam cum quisquam ipsa.</p>
                 </div>
             </div>

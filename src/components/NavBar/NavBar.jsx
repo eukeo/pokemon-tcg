@@ -10,7 +10,9 @@ export default function NavBar({user, setUser}) {
     }
     return (
         <>
+        <div id="banner-container">
         <img src="https://crystal-cdn2.crystalcommerce.com/photos/6330565/splashBanner_pokemon.jpg" id="banner"></img>
+        </div>
             <nav>
                 <ul>
                     {/* <span> Welcome, &nbsp;{user.name}! </span> */}

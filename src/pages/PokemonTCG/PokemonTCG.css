@@ -4,7 +4,17 @@
     margin: auto;
 }
 
+#all-tcg {
+    padding: 2%;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(193, 193, 193);
+    box-shadow: 0px 15px 15px black;
+    border-radius: 30px;
+}
+
 #Astral {
+    background-color: white;
     margin-top: 5%;
     margin-left: 50%;
     height: 25%;
@@ -12,30 +22,35 @@
 }
 
 #brilliant-stars {
+    background-color: white;
     height: 25%;
     width: 30%;
     margin-right: 50%;
 }
 
 #fusion-strike {
+    background-color: white;
     height: 25%;
     width: 30%;
     margin-left: 50%;
 }
 
 #celebrations {
+    background-color: white;
     height: 25%;
     width: 30%;
     margin-right: 50%;
 }
 
 #evolving-skies{
+    background-color: white;
     height: 25%;
     width: 30%;
     margin-left: 50%;
 }
 
 #chilling-reign {
+    background-color: white;
     height: 25%;
     width: 30%;
     margin-right: 50%;

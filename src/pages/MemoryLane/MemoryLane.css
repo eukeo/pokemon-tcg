@@ -4,6 +4,10 @@ h1 {
     margin: auto;
 }
 
+#pixel {
+    width: 10%;
+}
+
 ul, ol {
     list-style: none
 }
@@ -25,7 +29,7 @@ ul, ol {
 #timeline::before {
     content: '';
     position: absolute;
-    background-color: rgb(105, 105, 105);
+    /* background-color: rgb(105, 105, 105); */
     height: 100%;
     width: 4px;
     left: 50%;
