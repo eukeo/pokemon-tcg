@@ -2,7 +2,7 @@ import './PokemonTCG.css'
 
 export default function PokemonTCG() {
     return (
-        <div id="container">
+        <div id="tcg-container">
             <br></br>
             <h1>Pokémon Trading</h1>
             <div>

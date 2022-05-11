@@ -13,7 +13,7 @@ export default function NavBar({user, setUser}) {
         <img src="https://crystal-cdn2.crystalcommerce.com/photos/6330565/splashBanner_pokemon.jpg" id="banner"></img>
             <nav>
                 <ul>
-                    <span> Welcome, &nbsp;{user.name}! </span>
+                    {/* <span> Welcome, &nbsp;{user.name}! </span> */}
                     &nbsp; &nbsp;
                     <Link to="/" id="home">Home</Link>
                     &nbsp; &nbsp;
@@ -25,7 +25,7 @@ export default function NavBar({user, setUser}) {
                     &nbsp; &nbsp;
                     <Link to="/about" id="about">About</Link>
                     &nbsp; &nbsp;
-                    <Link to="" onClick={handleLogOut}>Log Out</Link>
+                    <Link to="" onClick={handleLogOut} id="logout">Log Out</Link>
                 </ul>
             </nav>
         </>
