@@ -12,19 +12,21 @@ export default function NavBar({user, setUser}) {
         <>
         <img src="https://crystal-cdn2.crystalcommerce.com/photos/6330565/splashBanner_pokemon.jpg" id="banner"></img>
             <nav>
-                <span> Welcome, &nbsp;{user.name}! </span>
-                &nbsp; &nbsp;
-                <Link to="/">Home</Link>
-                &nbsp; &nbsp;
-                <Link to="/pokemontcg">Trading Cards</Link>
-                &nbsp; &nbsp;
-                <Link to="/pokedex">Pokédex</Link>
-                &nbsp; &nbsp;
-                <Link to="/memorylane">Memory Lane</Link>
-                &nbsp; &nbsp;
-                <Link to="/about">About</Link>
-                &nbsp; &nbsp;
-                <Link to="" onClick={handleLogOut}>Log Out</Link>
+                <ul>
+                    <span> Welcome, &nbsp;{user.name}! </span>
+                    &nbsp; &nbsp;
+                    <Link to="/" id="home">Home</Link>
+                    &nbsp; &nbsp;
+                    <Link to="/pokemontcg" id="tcg">Trading Cards</Link>
+                    &nbsp; &nbsp;
+                    <Link to="/pokedex" id="pokedex">Pokédex</Link>
+                    &nbsp; &nbsp;
+                    <Link to="/memorylane" id="memory-lane">Memory Lane</Link>
+                    &nbsp; &nbsp;
+                    <Link to="/about" id="about">About</Link>
+                    &nbsp; &nbsp;
+                    <Link to="" onClick={handleLogOut}>Log Out</Link>
+                </ul>
             </nav>
         </>
     )
