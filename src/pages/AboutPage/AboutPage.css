@@ -10,6 +10,41 @@
     padding-bottom: 3%;
 }
 
+.slider {
+    height: 10%;
+    /* margin: auto; */
+    /* position: relative; */
+    display: grid;
+}
+
+.slide-track {
+    display: flex;
+    width: 100%;
+    animation: scroll 100s linear infinite;
+}
+
+.slide {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* padding: 5px; */
+  }
+  
+  .slide > img {
+    padding-top: 10%;
+    width: 50%;
+  }
+  
+  @keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 18));
+    }
+  }
+
 #mew {
     width: 10%;
     margin-left: 25%;

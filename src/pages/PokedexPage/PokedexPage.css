@@ -1,17 +1,21 @@
-#submit-form {
+#search-container {
     margin: auto;
     display: flex;
     justify-content: center;
+    margin-bottom: 2%;
 }
 
 #search-bar {
     height: 30px;
     width: 150px;
+    margin: auto;
+    margin-bottom: 2%;
 }
 
 #search-btn {
-    height: 30px;
+    height: 27px;
     width: 60px;
+    margin-top: 6px;
     text-align: center;
 }
 

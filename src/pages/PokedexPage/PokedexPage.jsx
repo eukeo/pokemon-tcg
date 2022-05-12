@@ -40,6 +40,10 @@ useEffect(() => {
   return (
     <div id="pokedex-wrap">
       <div className="app-container">
+        <div id="search-container">
+          <input type="text" id="search-bar" value="Search Pokémon"></input>
+          <button id="search-btn">Search</button>
+        </div>
         <div className="pokemon-container">
           <div className="all-container">
             {allPokemons.map( (pokemonStats, index) => 

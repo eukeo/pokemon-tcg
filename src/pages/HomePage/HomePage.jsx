@@ -3,19 +3,6 @@ import './HomePage.css'
 export default function HomePage() {
     return (
         <div id="home-container">
-            {/* <div class="slider">
-                <div class="slide-track">
-                    <div class="slide">
-                        <img src="https://pokemongohub.net/wp-content/uploads/2022/04/tcg-header.jpg"></img>
-                    </div>
-                    <div class="slide">
-                        <img src="https://nianticlabs.com/img/news/oneyear.jpg"></img>
-                    </div>
-                    <div class="slide">
-                        <img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/03/PWC.jpg?q=50&fit=contain&w=943&h=472&dpr=1.5"></img>
-                    </div>
-                </div>
-            </div> */}
             <br></br>
             <div id="info-container">
                 <div id="unite-container">
