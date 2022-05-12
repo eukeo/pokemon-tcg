@@ -6,6 +6,7 @@
 }
 
 #info-container {
+    border: 2px solid red;
     display: flex;
     flex-wrap: wrap;
     padding: 2%;
@@ -164,43 +165,3 @@
     border-radius: 15px;
     border-radius: 15px 15px 0px 0px;
 }
-
-/* #footer-container {
-    width: 100%;
-    background-color: white;
-    margin: auto;
-    border-radius: 20px;
-    padding: 1%;
-    margin-bottom: 5px;
-}
-
-#footer {
-    display: inline-flex;
-    margin: auto;
-    width: 14%;
-    justify-content: center;
-} */
-
-/* #unite-container:hover {
-    cursor: pointer;
-    border-color: rgb(255, 253, 137);
-    box-shadow: 0px 9px 35px rgb(255, 253, 137);
-}
-
-#go-container:hover {
-    cursor: pointer;
-    border-color: rgb(255, 253, 137);
-    box-shadow: 0px 9px 35px rgb(255, 253, 137);
-}
-
-#champ-container:hover {
-    cursor: pointer;
-    border-color: rgb(255, 253, 137);
-    box-shadow: 0px 9px 35px rgb(255, 253, 137);
-}
-
-#lavender-container:hover {
-    cursor: pointer;
-    border-color: rgb(255, 253, 137);
-    box-shadow: 0px 9px 35px rgb(255, 253, 137);
-} */

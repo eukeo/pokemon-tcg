@@ -34,6 +34,7 @@
 }
 
 .app-container {
+    border: 2px solid red;
     display: flex;
     flex-wrap: wrap;
     padding: 2%;

@@ -36,12 +36,13 @@ useEffect(() => {
  getAllPokemons()
 }, [])
 
+console.log(allPokemons)
   
   return (
     <div id="pokedex-wrap">
       <div className="app-container">
         <div id="search-container">
-          <input type="text" id="search-bar" value="Search Pokémon"></input>
+          <input type="text" id="search-bar"></input>
           <button id="search-btn">Search</button>
         </div>
         <div className="pokemon-container">
@@ -53,6 +54,7 @@ useEffect(() => {
                 image={pokemonStats.sprites.other.dream_world.front_default}
                 name={pokemonStats.name}
                 type={pokemonStats.types[0].type.name}
+                location={pokemonStats.location_area_encounters}
               />)}
           </div>
             <button className="load-more" onClick={() => getAllPokemons()}>Load more</button>
