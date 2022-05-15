@@ -54,7 +54,7 @@ console.log(allPokemons)
               if(searchPokemon === "") {
                 return val
               } else if (val.name.toLowerCase().includes(searchPokemon.toLowerCase())) {
-                return val
+                return val 
               }
             }).map( (pokemonStats, index) => 
               <PokemonThumb

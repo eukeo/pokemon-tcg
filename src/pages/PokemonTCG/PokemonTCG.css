@@ -28,7 +28,17 @@ h5 {
     flex-wrap: wrap;
 }
 
+.buy-button {
+    font-size: 15px;
+    border: 1px solid white;
+    background-color: rgb(131, 255, 137);
+    text-decoration: none;
+    border-radius: 10px;
+    margin: auto;
+}
+
 #ar-container {
+    padding-bottom: 2%;
     width: 30%;
     margin-left: 2%;
     background-color: rgb(186, 0, 84);
@@ -45,6 +55,7 @@ h5 {
 }
 
 #bs-container {
+    padding-bottom: 1%;
     width: 30%;
     margin-left: 3%;
     background-color: rgb(255, 255, 255);
@@ -61,6 +72,7 @@ h5 {
 }
 
 #fs-container {
+    padding-bottom: 1%;
     width: 30%;
     margin-left: 3%;
     background-color: rgb(255, 160, 222);
@@ -77,6 +89,7 @@ h5 {
 }
 
 #clb-container {
+    padding-bottom: 4%;
     width: 30%;
     margin-left: 2%;
     background-color: rgb(252, 231, 73);
@@ -94,6 +107,7 @@ h5 {
 }
 
 #es-container {
+    padding-bottom: 1%;
     width: 30%;
     margin-left: 3%;
     background-color: rgb(14, 168, 0);
@@ -110,6 +124,7 @@ h5 {
 }
 
 #chr-container {
+    padding-bottom: 1%;
     width: 30%;
     margin-left: 3%;
     background-color: rgb(68, 39, 255);
@@ -126,6 +141,7 @@ h5 {
 }
 
 #battle-container {
+    padding-bottom: 4%;
     width: 30%;
     margin-left: 2%;
     background-color: rgb(255, 51, 51);
@@ -143,6 +159,7 @@ h5 {
 }
 
 #sh-container {
+    padding-bottom: 1%;
     width: 30%;
     margin-left: 3%;
     background-color: rgb(99, 167, 255);
@@ -159,6 +176,7 @@ h5 {
 }
 
 #vv-container {
+    padding-bottom: 4%;
     width: 30%;
     margin-left: 3%;
     background-color: rgb(255, 76, 189);
@@ -176,6 +194,7 @@ h5 {
 }
 
 #cpath-container {
+    padding-bottom: 4%;
     width: 30%;
     margin-left: 2%;
     background-color: rgb(255, 255, 255);
@@ -193,6 +212,7 @@ h5 {
 }
 
 #dab-container {
+    padding-bottom: 1%;
     width: 30%;
     margin-left: 3%;
     background-color: rgb(202, 104, 0);
@@ -209,6 +229,7 @@ h5 {
 }
 
 #rebel-container {
+    padding-bottom: 4%;
     width: 30%;
     margin-left: 3%;
     background-color: rgb(122, 122, 122);
@@ -226,6 +247,7 @@ h5 {
 }
 
 #sands-container {
+    padding-bottom: 3%;
     width: 30%;
     margin-left: 2%;
     background-color: rgb(0, 67, 202);
@@ -243,6 +265,7 @@ h5 {
 }
 
 #clips-container {
+    padding-bottom: 3%;
     width: 30%;
     margin-left: 3%;
     background-color: rgb(255, 250, 155);
@@ -260,6 +283,7 @@ h5 {
 }
 
 #hidden-container {
+    padding-bottom: 3%;
     width: 30%;
     margin-left: 3%;
     background-color: rgb(179, 97, 255);
@@ -274,4 +298,10 @@ h5 {
     width: 100%;
     border-radius: 15px 15px 0px 0px;
     border-bottom: 2px solid white;
+}
+
+
+.buy-button:hover {
+    background-color: rgb(28, 170, 0);
+    color: white;
 }

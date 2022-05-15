@@ -5,6 +5,10 @@ export default function HomePage() {
         <div id="home-container">
             <br></br>
             <div id="info-container">
+                {/* <div id="video-banner-container">
+                    <iframe width="420" height="172" src="https://www.youtube.com/embed/MAmueMsFR1o?autoplay=1&mute=1" id="video-banner">
+                    </iframe>
+                </div> */}
                 <div id="unite-container">
                     <img src="https://assets.mspimages.in/wp-content/uploads/2021/08/pjimage-2021-08-19T104651.644.jpg" id="unite-pic"></img>
                     <h2>Pokémon Unite</h2>

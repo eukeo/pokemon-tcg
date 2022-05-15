@@ -69,11 +69,6 @@
     box-shadow: 0px 15px 15px black;
 }
 
-.thumb-container:hover {
-    /* opacity: 75%; */
-    transform: scale(1.1);
-}
-
 .grass {
     background-color: rgb(197, 255, 163);
 }

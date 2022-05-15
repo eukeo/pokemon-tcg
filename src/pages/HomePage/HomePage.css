@@ -5,6 +5,18 @@
     display: flex;
 }
 
+#video-banner-container {
+    margin: auto;
+    display: block;
+    background-color: white;
+    width: 80%;
+    height: 50%;
+}
+
+#video-banner {
+    width: 80%;
+}
+
 #info-container {
     border: 2px solid red;
     display: flex;
@@ -17,6 +29,7 @@
     border-radius: 30px;
     background-image: url("https://images-ext-1.discordapp.net/external/1H96OQLEhqmoZ-Ufi77N-pSr22zTIpoHrfinXdDcN2E/%3F1/https/i.imgur.com/0NPcBDd.png?width=670&height=670");
 }
+
 
 #unite-container {
     width: 30%;
