@@ -12,8 +12,8 @@ export default function PokedexPage() {
     console.log(expDate);
   }
 
-  const[allPokemons, setAllPokemons] = useState([])
-  const [loadMore, setLoadMore] = useState('https://pokeapi.co/api/v2/pokemon?limit=20')
+  const [allPokemons, setAllPokemons] = useState([])
+  const [loadMore, setLoadMore] = useState('https://pokeapi.co/api/v2/pokemon?limit=900')
 
  const getAllPokemons = async () => {
    const res = await fetch(loadMore)
@@ -36,25 +36,35 @@ useEffect(() => {
  getAllPokemons()
 }, [])
 
+const [searchPokemon, setSearchPokemon] = useState('')
+
+
 console.log(allPokemons)
   
   return (
     <div id="pokedex-wrap">
       <div className="app-container">
         <div id="search-container">
-          <input type="text" id="search-bar"></input>
+          <input type="text" id="search-bar" placeholder="Search..." onChange={event => {setSearchPokemon(event.target.value)}}></input>
           <button id="search-btn">Search</button>
         </div>
         <div className="pokemon-container">
           <div className="all-container">
-            {allPokemons.map( (pokemonStats, index) => 
+            {allPokemons.filter((val) => {
+              if(searchPokemon === "") {
+                return val
+              } else if (val.name.toLowerCase().includes(searchPokemon.toLowerCase())) {
+                return val
+              }
+            }).map( (pokemonStats, index) => 
               <PokemonThumb
                 key={index}
                 id={pokemonStats.id}
                 image={pokemonStats.sprites.other.dream_world.front_default}
                 name={pokemonStats.name}
                 type={pokemonStats.types[0].type.name}
-                location={pokemonStats.location_area_encounters}
+                weight={pokemonStats.weight}
+                height={pokemonStats.height}
               />)}
           </div>
             <button className="load-more" onClick={() => getAllPokemons()}>Load more</button>

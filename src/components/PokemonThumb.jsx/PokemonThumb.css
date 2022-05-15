@@ -1,5 +1,13 @@
 #pkmn-name {
-    display: flex;
+    display: block;
+    margin-right: 95%;
     flex-wrap: wrap;
     flex-direction: row;
+    font-style: italic;
+}
+
+.pkmn-details {
+    text-decoration: none;
+    font-size: 9px;
+    display: block;
 }

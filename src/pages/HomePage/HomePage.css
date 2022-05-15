@@ -31,7 +31,7 @@
 #unite-pic {
     width: 100%;
     border-radius: 15px 15px 0px 0px;
-    
+    border-bottom: 2px solid white;
 }
 
 #go-container {
@@ -48,6 +48,7 @@
 #go-pic {
     width: 100%;
     border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid white;
 }
 
 #champ-container {
@@ -63,6 +64,7 @@
 #champs {
     width: 100%;
     border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid white;
 }
 
 #lavender-container {
@@ -79,12 +81,14 @@
 #lavender-town {
     width: 100%;
     border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid white;
 }
 
 #yt-video {
     width: 100%;
     border-radius: 15px;
     border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid white;
 }
 
 #yt-container {
@@ -113,6 +117,7 @@
     width: 100%;
     border-radius: 15px;
     border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid white;
 }
 
 #pkmn-tcg-container {
@@ -130,12 +135,14 @@
     width: 100%;
     border-radius: 15px;
     border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid white;
 }
 
 #legends {
     width: 100%;
     border-radius: 15px;
     border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid white;
 }
 
 #legends-container {
@@ -164,4 +171,5 @@
     width: 100%;
     border-radius: 15px;
     border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid white;
 }
