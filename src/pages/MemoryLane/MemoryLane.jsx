@@ -56,8 +56,8 @@ export default function MemoryLane() {
                     <li>
                         <div class="content">
                             <img src="https://static.wikia.nocookie.net/pokemon/images/2/22/DiamondUS.jpg" id="pokemon-gameDS"></img>
-                            <p>Pokémon Diamond & Pearl (2006)</p>
                             <img src="https://static.wikia.nocookie.net/pokemon/images/6/6f/PearlUS.jpg" id="pokemon-gameDS"></img>
+                            <p>Pokémon Diamond & Pearl (2006)</p>
                         </div>
                     </li>
                     <li>

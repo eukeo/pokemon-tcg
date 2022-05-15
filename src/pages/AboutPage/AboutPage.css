@@ -10,40 +10,12 @@
     padding-bottom: 3%;
 }
 
-.slider {
-    height: 10%;
-    /* margin: auto; */
-    /* position: relative; */
-    display: grid;
+#about-section {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 3%;
 }
-
-.slide-track {
-    display: flex;
-    width: 100%;
-    animation: scroll 100s linear infinite;
-}
-
-.slide {
-    height: 10%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    /* padding: 5px; */
-  }
-  
-  .slide > img {
-    padding-top: 10%;
-    width: 50%;
-  }
-  
-  @keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(calc(-250px * 18));
-    }
-  }
 
 #mew {
     width: 10%;
@@ -53,4 +25,11 @@
 #lugia {
     width: 15%;
     margin-right: 20%;
+}
+
+#read-more {
+    background-color: none;
+    margin-top: 3%;
+    color: blue;
+    text-decoration: underline;
 }

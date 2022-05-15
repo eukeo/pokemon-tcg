@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './PokemonThumb.css'
 
 const PokemonThumb = ({id, image, name, type, weight, height, _callback }) => {

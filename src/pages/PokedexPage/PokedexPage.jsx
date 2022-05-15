@@ -2,6 +2,8 @@ import React from 'react';
 import { checkToken } from '../../utilities/users-service';
 import PokemonThumb from '../../components/PokemonThumb.jsx/PokemonThumb';
 import { useState, useEffect } from 'react';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 import './PokedexPage.css'
 
 export default function PokedexPage() {
@@ -13,7 +15,7 @@ export default function PokedexPage() {
   }
 
   const [allPokemons, setAllPokemons] = useState([])
-  const [loadMore, setLoadMore] = useState('https://pokeapi.co/api/v2/pokemon?limit=900')
+  const [loadMore, setLoadMore] = useState('https://pokeapi.co/api/v2/pokemon?limit=1126')
 
  const getAllPokemons = async () => {
    const res = await fetch(loadMore)
@@ -25,6 +27,7 @@ export default function PokedexPage() {
      results.forEach( async pokemon => {
        const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon.name}`)
        const data =  await res.json()
+       
        setAllPokemons( currentList => [...currentList, data])
        await allPokemons.sort((a, b) => a.id - b.id)
      })
@@ -35,6 +38,7 @@ export default function PokedexPage() {
 useEffect(() => {
  getAllPokemons()
 }, [])
+
 
 const [searchPokemon, setSearchPokemon] = useState('')
 
@@ -65,9 +69,9 @@ console.log(allPokemons)
                 type={pokemonStats.types[0].type.name}
                 weight={pokemonStats.weight}
                 height={pokemonStats.height}
-              />)}
+                />)}
           </div>
-            <button className="load-more" onClick={() => getAllPokemons()}>Load more</button>
+            {/* <button className="load-more">Load more</button> */}
         </div>
       </div>
   </div>
