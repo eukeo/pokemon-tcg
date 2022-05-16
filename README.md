@@ -14,3 +14,4 @@ Technologies Used:
 5) MongoDB/Mongoose
 6) Node
 7) Express
+8) Pokédex API
