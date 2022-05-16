@@ -1,144 +1,88 @@
 import './MemoryLane.css'
 
 export default function MemoryLane() {
-
     return (
-    <div id="timeline-container">
-        <div id="inner-container">
-            <div id="timeline">
-                <ul>
-                    <li>
-                        <div class="content">
-                            <img src="https://www.mobygames.com/images/covers/l/30873-pokemon-red-version-game-boy-front-cover.jpg" id="pokemon-game"></img>
-                            <img src="https://www.mobygames.com/images/covers/l/14426-pokemon-blue-version-game-boy-front-cover.jpg" id="pokemon-game"></img>
-                            <p>Pokémon Red & Blue (1997)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://upload.wikimedia.org/wikipedia/en/4/4a/Pokemon_Yellow.png" id="pokemon-game"></img>
-                            <p>Pokémon Yellow (1998)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://www.mobygames.com/images/covers/l/51564-pokemon-gold-version-game-boy-color-front-cover.jpg" id="pokemon-game"></img>
-                            <img src="https://www.mobygames.com/images/covers/l/34814-pokemon-silver-version-game-boy-color-front-cover.jpg" id="pokemon-game"></img>
-                            <p>Pokémon Gold & Silver (2000)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://upload.wikimedia.org/wikipedia/en/a/af/Pokemon_Crystal_Box.png" id="pokemon-game"></img>
-                            <p>Pokémon Crystal (2001)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://cdn.gamer-network.net/2014/usgamer/pokemonboxart.jpg" id="pokemon-game"></img>
-                            <img src="https://m.media-amazon.com/images/I/61RDD36KWPL._SX342_.jpg" id="pokemon-game"></img>
-                            <p>Pokémon Ruby & Sapphire (2002)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://archives.bulbagarden.net/media/upload/thumb/4/43/FireRed_EN_boxart.png/250px-FireRed_EN_boxart.png" id="pokemon-game"></img>
-                            <img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg" id="pokemon-game"></img>
-                            <p>Pokémon Fire Red & Leaf Green (2004)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://static.emulatorgames.net/images/gameboy-advance/pokemon-emerald-version.jpg" id="pokemon-game"></img>
-                            <p>Pokémon Emerald (2004)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://static.wikia.nocookie.net/pokemon/images/2/22/DiamondUS.jpg" id="pokemon-gameDS"></img>
-                            <img src="https://static.wikia.nocookie.net/pokemon/images/6/6f/PearlUS.jpg" id="pokemon-gameDS"></img>
-                            <p>Pokémon Diamond & Pearl (2006)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://m.media-amazon.com/images/I/71C28eEEaML._SL1114_.jpg" id="pokemon-gameDS"></img>
-                            <p>Pokémon Platinum (2008)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://static.wikia.nocookie.net/wiki_marriland/images/0/07/HeartGoldUS.jpg/" id="pokemon-gameDS"></img>
-                            <img src="https://images.nintendolife.com/05e61e45bec9c/pokemon-heartgold-and-soulsilver-cover.cover_large.jpg" id="pokemon-gameDS"></img>
-                            <p>Pokémon Heart Gold & Soul Silver (2009)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://upload.wikimedia.org/wikipedia/en/e/e1/Pokemon_Black_Box_Artwork.jpg" id="pokemon-gameDS"></img>
-                            <img src="https://gamesplace.se/wp-content/uploads/2019/06/Pokemon-white-version-ds.jpg" id="pokemon-gameDS"></img>
-                            <p>Pokémon Black & White (2011)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://gamefaqs.gamespot.com/a/box/1/5/6/225156_front.jpg" id="pokemon-gameDS"></img>
-                            <img src="https://gamefaqs.gamespot.com/a/box/1/6/1/225161_front.jpg" id="pokemon-gameDS"></img>
-                            <p>Pokémon Black 2 & White 2 (2012)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://media.s-bol.com/V7g6GkZzGY3O/3lpNkRQ/550x498.jpg" id="pokemon-gameDS"></img>
-                            <img src="https://static.wikia.nocookie.net/espokemon/images/6/6f/Pok%C3%A9mon_Y_Car%C3%A1tula.png" id="pokemon-gameDS"></img>
-                            <p>Pokémon X & Y (2013)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://www.mobygames.com/images/covers/l/401399-pokemon-omega-ruby-nintendo-3ds-front-cover.png" id="pokemon-gameDS"></img>
-                            <img src="https://www.mobygames.com/images/covers/l/299410-pokemon-alpha-sapphire-nintendo-3ds-front-cover.png" id="pokemon-gameDS"></img>
-                            <p>Pokémon Omega Ruby & Alpha Sapphire (2014)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://img.pokemondb.net/boxes/lg/sun-large.jpg" id="pokemon-gameDS"></img>
-                            <img src="https://www.serebii.net/sunmoon/moonbox.jpg" id="pokemon-gameDS"></img>
-                            <p>Pokémon Sun & Moon (2016)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://static.wikia.nocookie.net/leonhartimvu/images/d/de/Ultra_Sun_EN_boxart.png" id="pokemon-gameDS"></img>
-                            <img src="https://www.mobygames.com/images/covers/l/500367-pokemon-ultra-moon-nintendo-3ds-front-cover.jpg" id="pokemon-gameDS"></img>
-                            <p>Pokémon Ultra Sun & Ultra Moon (2017)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://m.media-amazon.com/images/I/81eJlNQ1UCL._SL1500_.jpg" id="pokemon-game-switch"></img>
-                            <img src="https://m.media-amazon.com/images/I/81kj6KHQQPL._SY500_.jpg" id="pokemon-game-switch"></img>
-                            <p>Pokémon Let's Go Pikachu! & Let's Go Eevee! (2018)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6255/6255366_sd.jpg" id="pokemon-game-switch"></img>
-                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6255/6255368_sd.jpg;maxHeight=640;maxWidth=550" id="pokemon-game-switch"></img>
-                            <p>Pokémon Sword & Shield (2019)</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <img src="https://gamingbolt.com/wp-content/uploads/2021/05/pokemon-brilliant-diamond-box-image.png" id="pokemon-game-switch"></img>
-                            <img src="https://images.nintendolife.com/cbbf113a4ebb7/pokemon-brilliant-diamond-and-shining-pearl-cover.cover_large.jpg" id="pokemon-game-switch"></img>
-                            <p>Pokémon Brilliant Diamond & Shining Pearl (2021)</p>
-                        </div>
-                    </li>
-                </ul>
+        <div id="timeline-container">
+            <div id="inner-container">
+                <div class="content">
+                    <img src="https://c.tenor.com/xldX1gSDw4sAAAAd/pokemon-pokemon-red.gif" id="pokemon-game"></img>
+                    <p>Pokémon Red & Blue (1997)</p>
+                </div>
+                <div class="content">
+                    <img src="https://i0.wp.com/superchartisland.com/wp-content/uploads/2020/10/pywalk.gif?resize=400%2C360&ssl=1" id="pokemon-game"></img>
+                    <p>Pokémon Yellow (1998)</p>
+                </div>
+                <div class="content">
+                    <img src="https://i.gifer.com/WP3s.gif" id="pokemon-game"></img>
+                    
+                    <p>Pokémon Gold & Silver (2000)</p>
+                </div>
+                <div class="content">
+                    <img src="https://thumbs.gfycat.com/FittingHealthyAmericanwigeon-size_restricted.gif" id="pokemon-game"></img>
+                    <p>Pokémon Crystal (2001)</p>
+                </div>
+                <div class="content">
+                    <img src="https://i.pinimg.com/originals/f4/2c/96/f42c96cb3282ee1ec72c414576f695c6.gif" id="pokemon-game"></img>
+                    
+                    <p>Pokémon Ruby & Sapphire (2002)</p>
+                </div>
+                <div class="content">
+                    <img src="https://c.tenor.com/wj-MSRM26WEAAAAC/pokemon-fire-red.gif" id="pokemon-game"></img>
+                    <p>Pokémon Fire Red & Leaf Green (2004)</p>
+                </div>
+                <div class="content">
+                    <img src="https://camo.githubusercontent.com/4b255d99c220c53537c59818cc9176b898e8de7244027d152dc8129bb412aaae/68747470733a2f2f692e696d6775722e636f6d2f69736749524c442e676966" id="pokemon-game"></img>
+                    <p>Pokémon Emerald (2004)</p>
+                </div>
+                <div class="content">
+                    <img src="https://c.tenor.com/6FdLVSnnUWMAAAAd/pokemon-pokemon-diamond.gif" id="pokemon-game"></img> 
+                    <p>Pokémon Diamond & Pearl (2006)</p>
+                </div>
+                <div class="content">
+                    <img src="https://thumbs.gfycat.com/UnripeDescriptiveBasilisk-max-1mb.gif" id="pokemon-game"></img>
+                    <p>Pokémon Platinum (2008)</p>
+                </div>
+                <div class="content">
+                    <img src="https://31.media.tumblr.com/b46639af6a4cd7654feda93aa0429308/tumblr_mromilJb081rv6iido1_500.gif" id="pokemon-game"></img>
+                    <p>Pokémon Heart Gold & Soul Silver (2009)</p>
+                </div>
+                <div class="content">
+                    <img src="https://images.hive.blog/p/B69zEhWZA8UCHxjagwibdXCLMYNxrPY6YRrJip9MJrz1rjPicCHTMRBcf6gsXqcT1FgT4H8uE8JQb7vsMzZgAC6sHAJxCFdfgZPrjH6d?format=match&mode=fit" id="pokemon-game"></img>            
+                    <p>Pokémon Black & White (2011)</p>
+                </div>
+                <div class="content">
+                    <img src="https://24.media.tumblr.com/tumblr_mbsj3nB9nV1r3ifxzo1_500.gif" id="pokemon-game"></img>
+                    <p>Pokémon Black 2 & White 2 (2012)</p>
+                </div>
+                <div class="content">
+                    <img src="https://abload.de/img/benchsitr8sn8.gif" id="pokemon-game"></img>
+                    <p>Pokémon X & Y (2013)</p>
+                </div>
+                <div class="content">
+                    <img src="https://64.media.tumblr.com/a9d6d7566d0c01ed467065a4ee51833e/tumblr_o9ixg2BZGH1u3e4cro1_r1_540.gifv" id="pokemon-game"></img>
+                    <p>Pokémon Omega Ruby & Alpha Sapphire (2014)</p>
+                </div>
+                <div class="content">
+                    <img src="https://64.media.tumblr.com/4881625f7021b0fc956e36bbf4546ed8/tumblr_ouvz4gkIFW1v68t0mo1_540.gifv" id="pokemon-game"></img>
+                    <p>Pokémon Sun & Moon (2016)</p>
+                </div>
+                <div class="content">
+                    <img src="https://64.media.tumblr.com/06cfe9a364aa89a6e0679c0953e3da4e/tumblr_ow8tobNnhQ1r8sc3ro1_540.gifv" id="pokemon-game"></img>
+                    <p>Pokémon Ultra Sun & Ultra Moon (2017)</p>
+                </div>
+                <div class="content">
+                    <img src="https://assets.pokemon.com//assets/cms2/img/video-games/_tiles/strategy/lets-go/starters-guide/inline/05.gif" id="pokemon-game"></img>
+                    <p>Pokémon Let's Go Pikachu! & Let's Go Eevee! (2018)</p>
+                </div>
+                <div class="content">
+                    <img src="https://i0.wp.com/www.imore.com/sites/imore.com/files/field/image/2019/11/pokemon-sword-shield-get-rich-quick.gif?resize=360%2C202&ssl=1" id="pokemon-game"></img>
+                    <p>Pokémon Sword & Shield (2019)</p>
+                </div>
+                <div class="content">
+                    <img src="https://64.media.tumblr.com/ceafe1b1381e9dd33f53f08a57f915b8/1dbcb090920dcb7b-df/s540x810/b6794fe39f49650153b24f95a0f1a1055b3caa85.gifv" id="pokemon-game"></img>
+                    <p>Pokémon Brilliant Diamond & Shining Pearl (2021)</p>
+                </div>
             </div>
-        </div>   
-    </div>
+        </div>
     )
 }

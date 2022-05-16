@@ -5,18 +5,6 @@
     display: flex;
 }
 
-#video-banner-container {
-    margin: auto;
-    display: block;
-    background-color: white;
-    width: 80%;
-    height: 50%;
-}
-
-#video-banner {
-    width: 80%;
-}
-
 #info-container {
     border: 2px solid red;
     display: flex;
@@ -30,13 +18,70 @@
     background-image: url("https://images-ext-1.discordapp.net/external/1H96OQLEhqmoZ-Ufi77N-pSr22zTIpoHrfinXdDcN2E/%3F1/https/i.imgur.com/0NPcBDd.png?width=670&height=670");
 }
 
+span {
+    color: rgb(221, 255, 0);
+    font-size: 18px;
+    /* font-style: italic; */
+}
+
+#comingsoon-container {
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 4%;
+    background-color: rgb(255, 221, 154);
+    border-radius: 15px;
+    margin-bottom: 4%;
+    box-shadow: 0px 9px 13px black;
+    border: 2px solid white;
+}
+
+#comingsoon {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid white;
+}
+
+#sandv-video {
+    width: 100%;
+    border-radius: 15px;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid white;
+}
+
+#sandv-container {
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 8%;
+    margin-bottom: 9%;
+    background-color: rgb(198, 108, 108);
+    border-radius: 15px;
+    box-shadow: 0px 9px 13px black;
+    border: 2px solid white;
+}
+
+#start-container {
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 4%;
+    background-color: rgb(0, 154, 171);
+    border-radius: 15px;
+    margin-bottom: 4%;
+    box-shadow: 0px 9px 13px black;
+    border: 2px solid white;
+}
+
+#start {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid white;
+}
 
 #unite-container {
     width: 30%;
     margin-left: 3%;
     background-color: rgb(216, 141, 0);
     border-radius: 15px;
-    margin-bottom: 2%;
+    margin-top: 2%;
     box-shadow: 0px 9px 13px black;
     border: 2px solid white;
 }
@@ -69,7 +114,8 @@
     margin-left: 2%;
     background-color: rgb(0, 161, 43);
     border-radius: 15px;
-    margin-bottom: 2%;
+    /* margin-bottom: 1%; */
+    margin-top: 1%;
     box-shadow: 0px 9px 13px black;
     border: 2px solid white;
 }
@@ -161,8 +207,8 @@
 #legends-container {
     width: 30%;
     margin-left: 2%;
-    margin-top: 9%;
-    margin-bottom: 10%;
+    margin-top: 8%;
+    margin-bottom: 9%;
     background-color: rgb(140, 255, 213);
     border-radius: 15px;
     box-shadow: 0px 9px 13px black;
@@ -171,7 +217,7 @@
 
 #evo-container {
     width: 30%;
-    margin-left: 3%;
+    margin-left: 2%;
     margin-top: 4%;
     margin-bottom: 6%;
     background-color: rgb(255, 149, 51);

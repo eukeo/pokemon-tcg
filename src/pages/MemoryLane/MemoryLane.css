@@ -24,97 +24,28 @@ h1 {
     background-image: url("https://images-ext-1.discordapp.net/external/1H96OQLEhqmoZ-Ufi77N-pSr22zTIpoHrfinXdDcN2E/%3F1/https/i.imgur.com/0NPcBDd.png?width=670&height=670");
 }
 
-ul, ol {
-    list-style: none
-}
-
-#timeline {
-    padding: 0px 100px;
-    width: 80%;
-    margin: auto;
-    position: relative;
-    /* background-color: white; */
-    color: white;
-}
-
-#timeline ul li {
-    position: relative;
-    width: 60%;
-}
-
-#timeline::before {
-    content: '';
-    position: absolute;
-    background-color: rgb(105, 105, 105);
-    height: 100%;
-    width: 4px;
-    left: 50%;
-    top: 0;
-}
-
-#timeline ul li:nth-child(odd) {
-    float: left;
-    text-align: right;
-    clear: both;
-}
-
-#timeline ul li:nth-child(even) {
-    float: right;
-    text-align: left;
-    clear: both;
-}
-
-#timeline ul li:nth-child(odd) .content {
-    margin-right: 100px;
-}
-
-#timeline ul li:nth-child(even) .content {
-    margin-left: 100px;
-}
-
-#timeline ul::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
 .content {
-    background-color: white;
-    padding-bottom: 2%;
-    width: 80%;
-    margin-left: 2%;
-    background-color: rgb(186, 0, 84);
+    margin-top: 4%;
+    padding-bottom: 4%;
+    width: 30%;
+    margin-left: 2.5%;
+    background-color: rgb(122, 122, 122);
     border-radius: 15px;
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
     box-shadow: 0px 9px 13px black;
-    border: 2px solid white;
-}
-
-.content p {
-    display: inline-flex;
-    color: black;
+    border: 2px solid rgb(255, 255, 255);
 }
 
 #pokemon-game {
-    height: 45%;
-    width: 45%;
-    display: block;
-    margin-left: 30%;
-    box-shadow: 0px 9px 13px black;
+    height: 60%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid white;
 }
 
 #pokemon-gameDS {
-    height: 55%;
-    width: 45%;
-    display: block;
-    margin-left: 30%;
-    box-shadow: 0px 9px 13px black;
-}
-
-#pokemon-game-switch {
-    height: 45%;
-    width: 45%;
-    display: block;
-    margin-left: 30%;
-    box-shadow: 0px 9px 13px black;
+    height: 60%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid white;
 }

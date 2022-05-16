@@ -12,10 +12,24 @@ export default function HomePage() {
         <div id="home-container">
             <br></br>
             <div id="info-container">
-                {/* <div id="video-banner-container">
-                    <iframe width="420" height="172" src="https://www.youtube.com/embed/MAmueMsFR1o?autoplay=1&mute=1" id="video-banner">
+                <div id="comingsoon-container" data-aos="fade-right">
+                    <img src="https://i0.wp.com/www.vooks.net/img/2022/02/pokemon-scarlet-violet.jpg?fit=1000%2C562&ssl=1" id="comingsoon"></img>
+                    <h2>Coming Soon!</h2>
+                    <p>Various towns blend seamlessly into the wilderness with no borders. You’ll be able to see the Pokémon of this region in the skies, in the seas, in the forests, on the streets—all over! You’ll be able to experience the true joy of the Pokémon series—battling against wild Pokémon in order to catch them—now in an open-world game that players of any age can enjoy.</p>
+                </div>
+                <div id="sandv-container" data-aos="fade-up">
+                    <iframe width="420" height="172" src="https://www.youtube.com/embed/MAmueMsFR1o?autoplay=1&mute=1" id="sandv-video">
                     </iframe>
-                </div> */}
+                    <h2>Scarlet & Violet: Trailer</h2>
+                    <p>The Pokémon Scarlet and Pokémon Violet games, the newest chapters in the Pokémon series, are coming to Nintendo Switch later this year. With these new titles, the Pokémon series takes a new evolutionary step, allowing you to explore freely in a richly expressed open world.</p>
+                </div>
+                <div id="start-container" data-aos="fade-left">
+                    <img src="https://www.well-played.com.au/wp-content/uploads/2022/02/POkemon-Gen-9-e1645999960828.jpeg" id="start"></img>
+                    <h2>Your New Starters!</h2>
+                    <p><span>Sprigatito:</span> OvergrowThe capricious, attention-seeking Grass Cat Pokémon.</p>
+                    <p><span>Fuecoco:</span> BlazeThe laid-back Fire Croc Pokémon that does things at its own pace.</p>
+                    <p><span>Quaxly:</span> The earnest and tidy Duckling Pokémon.</p>
+                </div>                
                 <div id="unite-container" data-aos="fade-right">
                     <img src="https://assets.mspimages.in/wp-content/uploads/2021/08/pjimage-2021-08-19T104651.644.jpg" id="unite-pic"></img>
                     <h2>Pokémon Unite</h2>
