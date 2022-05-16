@@ -25,11 +25,12 @@ h1 {
 }
 
 .content {
+    height: 100%;
     margin-top: 4%;
-    padding-bottom: 4%;
+    /* padding-bottom: 4%; */
     width: 30%;
     margin-left: 2.5%;
-    background-color: rgb(122, 122, 122);
+    background-color: white;
     border-radius: 15px;
     /* margin-bottom: 2%; */
     box-shadow: 0px 9px 13px black;
@@ -37,15 +38,40 @@ h1 {
 }
 
 #pokemon-game {
-    height: 60%;
+    height: 100%;
     width: 100%;
     border-radius: 15px 15px 0px 0px;
     border-bottom: 2px solid white;
 }
 
-#pokemon-gameDS {
-    height: 60%;
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+#ranb {
+    padding-bottom: 4%;
+}
+
+#rands {
+    padding-bottom: 7%;
+}
+
+#frlg {
+    padding-bottom: 5%;
+}
+
+#emmy {
+    padding-bottom: 4%;
+}
+
+#baw {
+    padding-bottom: 6%;
+}
+
+#xandy {
+    padding-bottom: 2.5%;
+}
+
+#sandm {
+    padding-bottom: 4%;
+}
+
+#sands {
+    padding-bottom: 2.5%;
 }

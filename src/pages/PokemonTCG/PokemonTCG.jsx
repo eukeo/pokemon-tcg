@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 
 export default function PokemonTCG() {
     useEffect(() => {
-        Aos.init({duration: 1500});
+        Aos.init({duration: 1700});
     }, []);
 
     return (
