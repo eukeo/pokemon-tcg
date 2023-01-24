@@ -1,322 +1,412 @@
 #tcg-container {
-    background-color: white;
-    width: 80%;
-    margin: auto;
-    margin-top: -1.5%;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  margin-top: -1.5%;
 }
 
 #tcg-banner {
-    width: 95%;
+  width: 95%;
 }
 
 h5 {
-    font-size: 10px;
-    text-decoration: underline;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    letter-spacing: 0.5px;
+  font-size: 10px;
+  text-decoration: underline;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 0.5px;
 }
 
 #all-tcg {
-    border: 2px solid red;
-    padding: 2%;
-    width: 90%;
-    margin: auto;
-    background-image: url("https://images-ext-1.discordapp.net/external/1H96OQLEhqmoZ-Ufi77N-pSr22zTIpoHrfinXdDcN2E/%3F1/https/i.imgur.com/0NPcBDd.png?width=670&height=670");
-    box-shadow: 0px 15px 15px black;
-    border-radius: 30px;
-    display: flex;
-    flex-wrap: wrap;
+  border: 2px solid red;
+  padding: 2%;
+  width: 90%;
+  margin: auto;
+  background-image: url("https://images-ext-1.discordapp.net/external/1H96OQLEhqmoZ-Ufi77N-pSr22zTIpoHrfinXdDcN2E/%3F1/https/i.imgur.com/0NPcBDd.png?width=670&height=670");
+  box-shadow: 0px 15px 15px black;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .buy-button {
-    font-size: 15px;
-    border: 1px solid white;
-    background-color: rgb(131, 255, 137);
-    text-decoration: none;
-    border-radius: 10px;
-    margin: auto;
+  font-size: 15px;
+  border: 1px solid white;
+  background-color: rgb(131, 255, 137);
+  text-decoration: none;
+  border-radius: 10px;
+  margin: auto;
+}
+
+#sandv-container {
+  margin-top: 4%;
+  padding-bottom: 2%;
+  width: 30%;
+  margin-left: 2%;
+  background-color: rgb(200, 0, 0);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
+}
+
+#sandv {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
+}
+
+#cz-container {
+  margin-top: 4%;
+  padding-bottom: 2%;
+  width: 30%;
+  margin-left: 2%;
+  background-color: rgb(60, 60, 60);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
+}
+
+#cz {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
+}
+
+#st-container {
+  margin-top: 4%;
+  padding-bottom: 2%;
+  width: 30%;
+  margin-left: 2%;
+  background-color: rgb(181, 215, 226);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
+}
+
+#st {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
+}
+
+#lo-container {
+  margin-top: 4%;
+  padding-bottom: 2%;
+  width: 30%;
+  margin-left: 2%;
+  background-color: rgb(186, 0, 115);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
+}
+
+#lo {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
+}
+
+#go-container {
+  margin-top: 4%;
+  padding-bottom: 2%;
+  width: 30%;
+  margin-left: 2%;
+  background-color: rgb(6, 0, 186);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
+}
+
+#Go {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #ar-container {
-    margin-top: 4%;
-    padding-bottom: 2%;
-    width: 30%;
-    margin-left: 2%;
-    background-color: rgb(186, 0, 84);
-    border-radius: 15px;
-    margin-bottom: 2%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid white;
+  margin-top: 4%;
+  padding-bottom: 2%;
+  width: 30%;
+  margin-left: 2%;
+  background-color: rgb(186, 0, 84);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
 }
 
 #Astral {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #bs-container {
-    margin-top: 4%;
-    padding-bottom: 1%;
-    width: 30%;
-    margin-left: 3%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    margin-bottom: 2%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid rgb(255, 255, 255);
+  margin-top: 4%;
+  padding-bottom: 1%;
+  width: 30%;
+  margin-left: 3%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 #brilliant-stars {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #fs-container {
-    margin-top: 4%;
-    padding-bottom: 1%;
-    width: 30%;
-    margin-left: 3%;
-    background-color: rgb(255, 160, 222);
-    border-radius: 15px;
-    margin-bottom: 2%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid rgb(255, 255, 255);
+  margin-top: 4%;
+  padding-bottom: 1%;
+  width: 30%;
+  margin-left: 3%;
+  background-color: rgb(255, 160, 222);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 #fusion-strike {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #clb-container {
-    margin-top: 4%;
-    padding-bottom: 4%;
-    width: 30%;
-    margin-left: 2%;
-    background-color: rgb(252, 231, 73);
-    border-radius: 15px;
-    margin-bottom: 2%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid rgb(255, 255, 255);
+  margin-top: 4%;
+  padding-bottom: 4%;
+  width: 30%;
+  margin-left: 2%;
+  background-color: rgb(252, 231, 73);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 #celebrations {
-    height: 61%;
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  height: 61%;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #es-container {
-    margin-top: 4%;
-    padding-bottom: 1%;
-    width: 30%;
-    margin-left: 3%;
-    background-color: rgb(14, 168, 0);
-    border-radius: 15px;
-    margin-bottom: 2%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid rgb(255, 255, 255);
+  margin-top: 4%;
+  padding-bottom: 1%;
+  width: 30%;
+  margin-left: 3%;
+  background-color: rgb(14, 168, 0);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid rgb(255, 255, 255);
 }
 
-#evolving-skies{
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+#evolving-skies {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #chr-container {
-    margin-top: 4%;
-    padding-bottom: 1%;
-    width: 30%;
-    margin-left: 3%;
-    background-color: rgb(68, 39, 255);
-    border-radius: 15px;
-    margin-bottom: 2%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid rgb(255, 255, 255);
+  margin-top: 4%;
+  padding-bottom: 1%;
+  width: 30%;
+  margin-left: 3%;
+  background-color: rgb(68, 39, 255);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 #chilling-reign {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #battle-container {
-    margin-top: 4%;
-    padding-bottom: 4%;
-    width: 30%;
-    margin-left: 2%;
-    background-color: rgb(255, 51, 51);
-    border-radius: 15px;
-    margin-bottom: 2%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid rgb(255, 255, 255);
+  margin-top: 4%;
+  padding-bottom: 4%;
+  width: 30%;
+  margin-left: 2%;
+  background-color: rgb(255, 51, 51);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 #battle-styles {
-    height: 63%;
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  height: 63%;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #sh-container {
-    margin-top: 4%;
-    padding-bottom: 1%;
-    width: 30%;
-    margin-left: 3%;
-    background-color: rgb(99, 167, 255);
-    border-radius: 15px;
-    margin-bottom: 2%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid rgb(255, 255, 255);
+  margin-top: 4%;
+  padding-bottom: 1%;
+  width: 30%;
+  margin-left: 3%;
+  background-color: rgb(99, 167, 255);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 #shining-fates {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #vv-container {
-    margin-top: 4%;
-    padding-bottom: 4%;
-    width: 30%;
-    margin-left: 3%;
-    background-color: rgb(255, 76, 189);
-    border-radius: 15px;
-    margin-bottom: 2%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid rgb(255, 255, 255);
+  margin-top: 4%;
+  padding-bottom: 4%;
+  width: 30%;
+  margin-left: 3%;
+  background-color: rgb(255, 76, 189);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 #vivid-voltage {
-    height: 64%;
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  height: 64%;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #cpath-container {
-    margin-top: 4%;
-    padding-bottom: 4%;
-    width: 30%;
-    margin-left: 2%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    margin-bottom: 2%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid rgb(255, 255, 255);
+  margin-top: 4%;
+  padding-bottom: 4%;
+  width: 30%;
+  margin-left: 2%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 #champs-path {
-    height: 62%;
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  height: 62%;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #dab-container {
-    margin-top: 4%;
-    padding-bottom: 1%;
-    width: 30%;
-    margin-left: 3%;
-    background-color: rgb(202, 104, 0);
-    border-radius: 15px;
-    margin-bottom: 2%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid rgb(255, 255, 255);
+  margin-top: 4%;
+  padding-bottom: 1%;
+  width: 30%;
+  margin-left: 3%;
+  background-color: rgb(202, 104, 0);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 #dablaze {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #rebel-container {
-    margin-top: 4%;
-    padding-bottom: 4%;
-    width: 30%;
-    margin-left: 3%;
-    background-color: rgb(122, 122, 122);
-    border-radius: 15px;
-    margin-bottom: 2%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid rgb(255, 255, 255);
+  margin-top: 4%;
+  padding-bottom: 4%;
+  width: 30%;
+  margin-left: 3%;
+  background-color: rgb(122, 122, 122);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 #rebel-clash {
-    height: 62%;
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  height: 62%;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #sands-container {
-    margin-top: 4%;
-    padding-bottom: 3%;
-    width: 30%;
-    margin-left: 2%;
-    background-color: rgb(0, 67, 202);
-    border-radius: 15px;
-    margin-bottom: 2%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid rgb(255, 255, 255);
+  margin-top: 4%;
+  padding-bottom: 3%;
+  width: 30%;
+  margin-left: 2%;
+  background-color: rgb(0, 67, 202);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 #sword-and-shield {
-    height: 59%;
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  height: 59%;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #clips-container {
-    margin-top: 4%;
-    padding-bottom: 3%;
-    width: 30%;
-    margin-left: 3%;
-    background-color: rgb(255, 250, 155);
-    border-radius: 15px;
-    margin-bottom: 2%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid rgb(255, 255, 255);
+  margin-top: 4%;
+  padding-bottom: 3%;
+  width: 30%;
+  margin-left: 3%;
+  background-color: rgb(255, 250, 155);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 #clips {
-    height: 59%;
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  height: 59%;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #hidden-container {
-    margin-top: 4%;
-    padding-bottom: 3%;
-    width: 30%;
-    margin-left: 3%;
-    background-color: rgb(179, 97, 255);
-    border-radius: 15px;
-    margin-bottom: 2%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid rgb(255, 255, 255);
+  margin-top: 4%;
+  padding-bottom: 3%;
+  width: 30%;
+  margin-left: 3%;
+  background-color: rgb(179, 97, 255);
+  border-radius: 15px;
+  margin-bottom: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 #hidden {
-    height: 59%;
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  height: 59%;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
-
 .buy-button:hover {
-    background-color: rgb(28, 170, 0);
-    color: white;
+  background-color: rgb(28, 170, 0);
+  color: white;
 }
