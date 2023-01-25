@@ -1,9 +1,8 @@
-This MERN stack web application implemented with authentication, not only contains the latest updates on the Pokéverse, but it also has a little bit of nostalgia that will make any Pokémon fan remember what it was like to be a kid. From the Pokédex, to Memory Lane, there is something small for everyone to enjoy!
+This 'Mobile Friendly' web application not only contains the latest updates on the Pokéverse, but it also has a little bit of nostalgia that will make any Pokémon fan remember what it was like to be a kid. From the Pokédex, to Memory Lane, there is something small for everyone to enjoy!
 
 Technologies Used:
 1) Pokédex API 
 2) CSS 
-3) MongoDB 
 4) Express 
 5) React
 6) Node.js
