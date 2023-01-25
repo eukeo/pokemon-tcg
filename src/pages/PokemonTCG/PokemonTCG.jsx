@@ -15,10 +15,10 @@ export default function PokemonTCG() {
         {/* <img src="https://www.dexerto.com/wp-content/uploads/2022/03/25/How-many-Pokemon-cards-are-there.jpg" id="tcg-banner"></img> */}
       </div>
       <div id="all-tcg">
-        <div id="sandv-container" data-aos="fade-up">
+        <div id="sv-container" data-aos="fade-up">
           <img
             src="https://www.pokebeach.com/news/2022/12/Scarlet-Violet-English-1.jpg"
-            id="sandv"
+            id="sv"
           ></img>
           <h2>Scarlet & Violet</h2>
           <h5>Release Date: March 31, 2023</h5>

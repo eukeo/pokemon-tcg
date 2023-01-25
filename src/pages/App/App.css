@@ -3,13 +3,13 @@ body {
   background-color: rgb(53, 53, 53);
   background-image: url("https://images-ext-1.discordapp.net/external/1H96OQLEhqmoZ-Ufi77N-pSr22zTIpoHrfinXdDcN2E/%3F1/https/i.imgur.com/0NPcBDd.png?width=670&height=670");
   background-size: 25%;
-  background-repeat:repeat;
+  background-repeat: repeat;
   background-position: fixed;
 }
 
 .App {
-    text-align: center;
-  }
+  text-align: center;
+}
 
 .App-header {
   background-color: #282c34;

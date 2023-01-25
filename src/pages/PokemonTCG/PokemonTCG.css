@@ -38,7 +38,7 @@ h5 {
   margin: auto;
 }
 
-#sandv-container {
+#sv-container {
   margin-top: 4%;
   padding-bottom: 2%;
   width: 30%;
@@ -50,7 +50,7 @@ h5 {
   border: 2px solid white;
 }
 
-#sandv {
+#sv {
   width: 100%;
   border-radius: 15px 15px 0px 0px;
   border-bottom: 2px solid white;
@@ -409,4 +409,35 @@ h5 {
 .buy-button:hover {
   background-color: rgb(28, 170, 0);
   color: white;
+}
+
+@media only screen and (max-width: 980px) {
+  #tcg-container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  #sv-container,
+  #cz-container,
+  #st-container,
+  #lo-container,
+  #go-container,
+  #ar-container,
+  #bs-container,
+  #fs-container,
+  #clb-container,
+  #es-container,
+  #chr-container,
+  #battle-container,
+  #sh-container,
+  #vv-container,
+  #cpath-container,
+  #dab-container,
+  #rebel-container,
+  #sands-container,
+  #clips-container,
+  #hidden-container {
+    width: 96%;
+  }
 }

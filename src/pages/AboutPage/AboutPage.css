@@ -33,3 +33,23 @@
   color: blue;
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 980px) {
+  #about-container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  #mew,
+  #lugia,
+  #about-header {
+    width: 51%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  #about-section {
+    width: 90%;
+  }
+}

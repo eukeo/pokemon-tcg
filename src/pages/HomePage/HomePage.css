@@ -1,234 +1,258 @@
 #home-container {
-    background-color: white;
-    width: 80%;
-    margin: auto;
-    display: flex;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  display: flex;
 }
 
 #info-container {
-    border: 2px solid red;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 2%;
-    width: 90%;
-    margin: auto;
-    background-color: rgb(193, 193, 193);
-    box-shadow: 0px 15px 15px black;
-    border-radius: 30px;
-    background-image: url("https://images-ext-1.discordapp.net/external/1H96OQLEhqmoZ-Ufi77N-pSr22zTIpoHrfinXdDcN2E/%3F1/https/i.imgur.com/0NPcBDd.png?width=670&height=670");
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  width: 90%;
+  margin: auto;
+  background-color: rgb(193, 193, 193);
+  box-shadow: 0px 15px 15px black;
+  border-radius: 30px;
+  background-image: url("https://images-ext-1.discordapp.net/external/1H96OQLEhqmoZ-Ufi77N-pSr22zTIpoHrfinXdDcN2E/%3F1/https/i.imgur.com/0NPcBDd.png?width=670&height=670");
 }
 
 span {
-    color: rgb(221, 255, 0);
-    font-size: 18px;
-    /* font-style: italic; */
+  color: rgb(221, 255, 0);
+  font-size: 18px;
+  /* font-style: italic; */
 }
 
 #comingsoon-container {
-    width: 30%;
-    margin-left: 3%;
-    margin-top: 4%;
-    background-color: rgb(255, 221, 154);
-    border-radius: 15px;
-    margin-bottom: 4%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid white;
+  width: 30%;
+  margin-left: 3%;
+  margin-top: 4%;
+  background-color: rgb(255, 221, 154);
+  border-radius: 15px;
+  margin-bottom: 4%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
 }
 
 #comingsoon {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #sandv-video {
-    width: 100%;
-    border-radius: 15px;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #sandv-container {
-    width: 30%;
-    margin-left: 2%;
-    margin-top: 7%;
-    margin-bottom: 9%;
-    background-color: rgb(198, 108, 108);
-    border-radius: 15px;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid white;
+  width: 30%;
+  margin-left: 2%;
+  margin-top: 7%;
+  margin-bottom: 9%;
+  background-color: rgb(198, 108, 108);
+  border-radius: 15px;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
 }
 
 #start-container {
-    width: 30%;
-    margin-left: 2%;
-    margin-top: 4%;
-    background-color: rgb(0, 154, 171);
-    border-radius: 15px;
-    margin-bottom: 4%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid white;
+  width: 30%;
+  margin-left: 2%;
+  margin-top: 4%;
+  background-color: rgb(0, 154, 171);
+  border-radius: 15px;
+  margin-bottom: 4%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
 }
 
 #start {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #unite-container {
-    width: 30%;
-    margin-left: 3%;
-    background-color: rgb(216, 141, 0);
-    border-radius: 15px;
-    margin-top: 2%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid white;
+  width: 30%;
+  margin-left: 3%;
+  background-color: rgb(216, 141, 0);
+  border-radius: 15px;
+  margin-top: 2%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
 }
 
 #unite-pic {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #go-container {
-    width: 30%;
-    margin-left: 2%;
-    margin-top: 8%;
-    margin-bottom: 9%;
-    background-color: rgb(57, 71, 255);
-    border-radius: 15px;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid white;
+  width: 30%;
+  margin-left: 2%;
+  margin-top: 8%;
+  margin-bottom: 9%;
+  background-color: rgb(57, 71, 255);
+  border-radius: 15px;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
 }
 
 #go-pic {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #champ-container {
-    width: 30%;
-    margin-left: 2%;
-    background-color: rgb(0, 161, 43);
-    border-radius: 15px;
-    /* margin-bottom: 1%; */
-    margin-top: 1%;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid white;
+  width: 30%;
+  margin-left: 2%;
+  background-color: rgb(0, 161, 43);
+  border-radius: 15px;
+  /* margin-bottom: 1%; */
+  margin-top: 1%;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
 }
 
 #champs {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #lavender-container {
-    width: 30%;
-    margin-left: 3%;
-    margin-top: 4%;
-    margin-bottom: 6%;
-    background-color: rgb(195, 146, 255);
-    border-radius: 15px;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid white;
+  width: 30%;
+  margin-left: 3%;
+  margin-top: 4%;
+  margin-bottom: 6%;
+  background-color: rgb(195, 146, 255);
+  border-radius: 15px;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
 }
 
 #lavender-town {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #yt-video {
-    width: 100%;
-    border-radius: 15px;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #yt-container {
-    width: 30%;
-    margin-left: 2%;
-    margin-top: 4%;
-    margin-bottom: 6%;
-    background-color: rgb(180, 0, 0);
-    border-radius: 15px;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid white;
+  width: 30%;
+  margin-left: 2%;
+  margin-top: 4%;
+  margin-bottom: 6%;
+  background-color: rgb(180, 0, 0);
+  border-radius: 15px;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
 }
 
 #hisuian-container {
-    width: 30%;
-    margin-left: 2%;
-    margin-top: 4%;
-    margin-bottom: 6%;
-    background-color: rgb(200, 207, 0);
-    border-radius: 15px;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid white;
+  width: 30%;
+  margin-left: 2%;
+  margin-top: 4%;
+  margin-bottom: 6%;
+  background-color: rgb(200, 207, 0);
+  border-radius: 15px;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
 }
 
 #hisuian {
-    width: 100%;
-    border-radius: 15px;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #pkmn-tcg-container {
-    width: 30%;
-    margin-left: 3%;
-    margin-top: 4%;
-    margin-bottom: 6%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid white;
+  width: 30%;
+  margin-left: 3%;
+  margin-top: 4%;
+  margin-bottom: 6%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
 }
 
 #pkmn-tcg {
-    width: 100%;
-    border-radius: 15px;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #legends {
-    width: 100%;
-    border-radius: 15px;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
 }
 
 #legends-container {
-    width: 30%;
-    margin-left: 2%;
-    margin-top: 8%;
-    margin-bottom: 9%;
-    background-color: rgb(140, 255, 213);
-    border-radius: 15px;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid white;
+  width: 30%;
+  margin-left: 2%;
+  margin-top: 8%;
+  margin-bottom: 9%;
+  background-color: rgb(140, 255, 213);
+  border-radius: 15px;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
 }
 
 #evo-container {
-    width: 30%;
-    margin-left: 2%;
-    margin-top: 4%;
-    margin-bottom: 6%;
-    background-color: rgb(255, 149, 51);
-    border-radius: 15px;
-    box-shadow: 0px 9px 13px black;
-    border: 2px solid white;
+  width: 30%;
+  margin-left: 2%;
+  margin-top: 4%;
+  margin-bottom: 6%;
+  background-color: rgb(255, 149, 51);
+  border-radius: 15px;
+  box-shadow: 0px 9px 13px black;
+  border: 2px solid white;
 }
 
 #evo-video {
-    width: 100%;
-    border-radius: 15px;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 2px solid white;
+  width: 100%;
+  border-radius: 15px;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 2px solid white;
+}
+
+@media only screen and (max-width: 980px) {
+  #home-container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  #info-container,
+  #comingsoon-container,
+  #info-container > #sandv-container,
+  #start-container,
+  #unite-container,
+  #info-container > #go-container,
+  #champ-container,
+  #lavender-container,
+  #yt-container,
+  #hisuian-container,
+  #pkmn-tcg-container,
+  #legends-container,
+  #evo-container {
+    width: 95%;
+  }
 }
