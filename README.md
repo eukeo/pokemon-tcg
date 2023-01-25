@@ -12,3 +12,5 @@ Technologies Used:
 ![pkmn3](https://user-images.githubusercontent.com/99705240/214627854-50fea515-c7dd-4aa5-a388-77922a1edfbb.JPG)
 ![pkmn4](https://user-images.githubusercontent.com/99705240/214631079-8bd0e764-c9df-4e3e-8f73-d7d4f5d6e049.JPG)
 ![pkmn5](https://user-images.githubusercontent.com/99705240/214631092-c91076e4-1af0-455f-86bc-be11a24b988a.JPG)
+![5](https://user-images.githubusercontent.com/99705240/214631508-a99e0d45-7ebb-4e6c-91a5-aaa265279dd3.JPG)
+![6](https://user-images.githubusercontent.com/99705240/214631514-b4e0c851-86fa-4b37-b6c0-9228ac77ee87.JPG)
