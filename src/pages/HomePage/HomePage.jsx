@@ -34,7 +34,7 @@ export default function HomePage() {
             src="https://www.youtube.com/embed/MAmueMsFR1o?autoplay=1&mute=1"
             id="sandv-video"
           ></iframe>
-          <h2>Scarlet & Violet: Trailer</h2>
+          <h2>Scarlet & Violet Trailer</h2>
           <p>
             The Pokémon Scarlet and Pokémon Violet games, the newest chapters in
             the Pokémon series, are coming to Nintendo Switch later this year.
